@@ -33,8 +33,8 @@ public class Tesis extends Escrito{
 
 
 
-	public int getArgumentos() {
-		return argumentos.length;
+	public String[] getArgumentos() {
+		return argumentos;
 	}
 
 
@@ -92,7 +92,7 @@ public class Tesis extends Escrito{
 	
 	public String toString() {
 		return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" +
-				this.getPaginas() + "\n" + this.getIdea() + "\n"  + this.getArgumentos() + "\n" + 
+				this.getPaginas() + "\n" + this.getIdea() + "\n"  + this.getArgumentos().length + "\n" + 
 				this.getConclusion() + "\n" + this.getReferencias();
 	}
 
