@@ -33,8 +33,8 @@ public class Tesis extends Escrito{
 
 
 
-	public String[] getArgumentos() {
-		return argumentos;
+	public int getArgumentos() {
+		return argumentos.length;
 	}
 
 
